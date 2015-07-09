@@ -4,7 +4,7 @@
 
 2). unescape:convert escape sequences into real characters while copying the string t to s
 
-3). unescape:convert escape sequences into real characters while copying the string t to s. another use for nestification for switch
+3). unescape:convert escape sequences into real characters while copying the string t to s. nestification for switch
 
 4). expand: expand shorthand notation in s1 into string s2
 
