@@ -4,17 +4,19 @@
 #include<stdio.h>
 #include<string.h>
 
+#define MAXNUM 200
+
+void my_strcat(char *s, char *t);
+
 main(){
+	char s[MAXNUM],t[MAXNUM];
 
-	void my_strcat(const char *, const char *);
-	char *s, *t;
-
-	//s = "hello, ";
-	//t = "weekend!";
 	strcpy(s, "hello, ");
 	strcpy(t, "weekend!");
 
-	my_strcat(*s, *t);
+	my_strcat(s, t);
+
+	printf("result : %s\n", s);
 
 }
 
@@ -23,7 +25,4 @@ void my_strcat(char *s, char *t){
 		s++;
 	while(*s++ = *t++)
 		;
-
-	//print s
-	printf("new s : %s\n", s);
 }
